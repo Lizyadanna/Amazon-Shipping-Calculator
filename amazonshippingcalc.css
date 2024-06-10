@@ -1,0 +1,23 @@
+h1 {
+    font-size: bold;
+    color: blueviolet;
+}
+
+h2 {
+    font-size: medium;
+}
+
+input {
+    border-radius: 30px;
+    border-color: blueviolet;
+    padding-left: 10px;
+}
+
+button {
+    border-radius: 30px;
+}
+
+.js-total-cost {
+    font-size: large;
+    font-weight: bold;
+}
