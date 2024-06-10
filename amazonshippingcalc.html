@@ -11,7 +11,14 @@
       Orders under $40 = +$10 shipping.<br />
       Orders over $40 = FREE shipping.<br />
 
-      <input placeholder="Cost of order" type="text" class="js-cost-input" />
+      <input
+        placeholder="Cost of order"
+        type="text"
+        class="js-cost-input"
+        onkeydown="
+      console.log(event.key);
+      "
+      />
       <button
         onclick="
       calculateTotal();
